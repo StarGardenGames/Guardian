@@ -4,7 +4,11 @@ alarm[0] = 90;
 
 with(oCharacter){
 	selected = true;
-	path_end();
+
+}
+
+with(oCharacterPath){
+	path_end();	
 }
 
 xs = ds_list_create()

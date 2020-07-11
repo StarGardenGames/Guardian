@@ -6,6 +6,4 @@ if(selected && !keyboard_check(vk_space)){
 	x += dx * moveSpeed * slowfactor;
 	y += dy * moveSpeed * slowfactor; 
 	
-}else if(!selected){
-	path_speed = slowfactor * moveSpeed / 4;
 }
