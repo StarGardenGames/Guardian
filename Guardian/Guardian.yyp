@@ -783,6 +783,14 @@
             }
         },
         {
+            "Key": "468eb674-c077-449a-9c9d-88533df2f798",
+            "Value": {
+                "id": "2cfc1099-8263-4543-8035-fe7a0bf4dd6f",
+                "resourcePath": "sprites\\sShieldCapture\\sShieldCapture.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "46a42dd4-9784-466c-a80b-c09c5d3130f7",
             "Value": {
                 "id": "294af976-be2a-4abb-adba-309897c50192",
