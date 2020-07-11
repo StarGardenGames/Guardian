@@ -4,6 +4,5 @@ if(selected && !keyboard_check(vk_space)){
 	dy = keyboard_check(vk_down) - keyboard_check(vk_up);
 
 	x += dx * moveSpeed * slowfactor;
-	y += dy * moveSpeed * slowfactor; 
-	
+	y += dy * moveSpeed * slowfactor;
 }

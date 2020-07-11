@@ -1,5 +1,7 @@
 event_inherited();
 
+if(ds_list_size(oPersistent.xs) == 0) exit
+
 if(!selected){
 	pos_index += slowfactor
 	

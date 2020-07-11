@@ -1,4 +1,5 @@
-draw_self()
+event_inherited()
 
 draw_set_font(fBigFont)
-draw_text(x+sprite_width/2, y+sprite_height/2, oPersistent.loaded_name)
+draw_set_valign(fa_top)
+draw_text(x, y+10, oPersistent.loaded_name)
