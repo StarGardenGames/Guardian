@@ -5,12 +5,14 @@ switch(dir){
 		x += moveSpeed*slowfactor; 
 	break;
 	case "up":
+		image_angle = 90;
 		y -= moveSpeed*slowfactor;
 	break;
 	case "left":
 		x -= moveSpeed*slowfactor; 
 	break;
 	case "down":
+		image_angle = 270;
 		y += moveSpeed*slowfactor;
 	break;
 }
