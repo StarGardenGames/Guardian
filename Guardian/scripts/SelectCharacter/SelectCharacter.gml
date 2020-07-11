@@ -1,8 +1,12 @@
-index = irandom(instance_number(oCharacter)-1);
+var numChars = instance_number(oCharacter);
 
-for(var i = 0; i < instance_number(oCharacter); i++){
+index = irandom(numChars-1);
+
+for(var i = 0; i < numChars; i++){
 	chararr[i] = instance_find(oCharacter, i);
 }
+
+if(numChars == 1 && chararr[0].state == CHAR_STATE.safe) exit; 
 
 with(chararr[index]){
 	if(state != CHAR_STATE.safe){
