@@ -1,4 +1,4 @@
 if(recording){
-	ds_list_add(xs,oCharacter.x);
-	ds_list_add(ys,oCharacter.y);
+	ds_list_add(oPersistent.xs,oCharacter.x);
+	ds_list_add(oPersistent.ys,oCharacter.y);
 }
