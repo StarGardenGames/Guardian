@@ -1,0 +1,1 @@
+return anchorX(anchor, anchor_obj) + x2*anchorXScale(anchor, anchor_obj)

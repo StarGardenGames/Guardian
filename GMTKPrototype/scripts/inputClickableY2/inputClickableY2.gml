@@ -1,0 +1,1 @@
+return anchorY(anchor, anchor_obj) + y2*anchorYScale(anchor, anchor_obj)

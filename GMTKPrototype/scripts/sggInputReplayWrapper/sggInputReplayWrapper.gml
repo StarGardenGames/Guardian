@@ -1,0 +1,1 @@
+oInputExample.dialog_events[?  get_string_async("Which recording do you want to replay?", "") ] = "replay"
