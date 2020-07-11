@@ -3,8 +3,8 @@ var old_y = y;
 switch(mouse_type){
 case MOUSE_TYPE.desktop:
 	//shift/scale mouse into gui space
-	room_x = mouse_x / screenScale
-	room_y = mouse_y / screenScale
+	room_x = mouse_x
+	room_y = mouse_y
 	
 	pressed = mouse_check_button_pressed(mb_left);
 	held = mouse_check_button(mb_left);
@@ -16,8 +16,8 @@ case MOUSE_TYPE.mobile:
 	released = device_mouse_check_button_released(index, mb_left);
 	if(pressed + held + released != 0){
 		//shift/scale mouse into gui space
-		room_x = device_mouse_x(index) / screenScale
-		room_y = device_mouse_y(index) / screenScale
+		room_x = device_mouse_x(index)
+		room_y = device_mouse_y(index)
 	}
 	break;
 case MOUSE_TYPE.tab:
@@ -30,8 +30,8 @@ case MOUSE_TYPE.tab:
 			var next_tab_pri = undefined;
 			var cur_tab_pri = inputGetTabPri(x, y)
 			with(oInputClickable){
-				var button_x = x + ((inputClickableIsGUI())? camX() : 0) / screenScale;
-				var button_y = y + ((inputClickableIsGUI())? camY() : 0) / screenScale;
+				var button_x = x + ((inputClickableIsGUI())? camX() : 0);
+				var button_y = y + ((inputClickableIsGUI())? camY() : 0);
 				var button_pri = inputGetTabPri(button_x, button_y)
 				if(interactable && 
 				   posInView(button_x, button_y) && 

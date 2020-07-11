@@ -25,8 +25,8 @@ if(inputClickableIsGUI()){
 }else{
 	if(click_shape_is_ellipse){
 		draw_ellipse(
-			screenScale*inputClickableX1(), screenScale*inputClickableY1(),
-			screenScale*inputClickableX2(), screenScale*inputClickableY2(), false)
+			inputClickableX1(), inputClickableY1(),
+			inputClickableX2(), inputClickableY2(), false)
 	}else{
 		// screenScale is applied within drawRectangle
 		draw_rectangle(
