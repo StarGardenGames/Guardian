@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "097a1e4a-16c6-434a-a93b-3af3cca380bc",
+            "Value": {
+                "id": "c7650a49-359d-4c04-9619-f777b8a615c9",
+                "resourcePath": "scripts\\buttonRecord\\buttonRecord.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "09c42b1a-f76d-4bde-a086-9ca891725c44",
             "Value": {
                 "id": "bc8d238c-2501-4489-aad9-908d591a5ce6",
@@ -1799,6 +1807,14 @@
             }
         },
         {
+            "Key": "9fc6bf50-a9c0-41cf-9326-3847886ea63f",
+            "Value": {
+                "id": "50c62215-cd59-46cc-9bfe-74f1ded40d97",
+                "resourcePath": "sprites\\sArrowDown\\sArrowDown.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a0844fd6-f71b-42df-8c17-8e070bb98bec",
             "Value": {
                 "id": "f8182598-4aea-4fac-87dc-6b5d9c7d8381",
@@ -3246,6 +3262,7 @@
         "be730fb4-0317-4914-956b-899a58624cef",
         "1ad3927a-2357-4ae1-abb0-750b683c5245",
         "04200921-29ca-4312-a65b-9724b6547928",
+        "097a1e4a-16c6-434a-a93b-3af3cca380bc",
         "a6e66556-d967-46a7-8a37-5bfb52c03d43",
         "03d404b3-a385-4510-993a-847505e7df53",
         "5813773d-9525-422c-b648-7faadc416a08",

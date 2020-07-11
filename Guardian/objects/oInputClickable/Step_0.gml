@@ -15,7 +15,7 @@ if(anchor != ANCHOR.none){
 		x = (inputClickableX1() + inputClickableX2()) / 2
 		y = (inputClickableY1() + inputClickableY2()) / 2
 	}else{
-		x = inputClickableX1() + sprite_xoffset
-		y = inputClickableY1() + sprite_yoffset
+		x = ((image_xscale > 0)? inputClickableX1() : inputClickableX2()) + sprite_xoffset
+		y = ((image_yscale > 0)? inputClickableY1() : inputClickableY2()) + sprite_yoffset
 	}
 }

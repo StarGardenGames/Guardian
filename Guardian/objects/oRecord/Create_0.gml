@@ -23,3 +23,6 @@ xs = ds_list_create()
 ys = ds_list_create()
 
 selectors_layer = layer_get_id("Selectors")
+
+sprite = sCharacterLeft
+name = "aaaaa"

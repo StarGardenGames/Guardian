@@ -43,7 +43,7 @@
             "mvc": "1.0",
             "objectId": "2f3496a2-aa50-4a46-9b62-3fdb0a1dafd3",
             "propertyId": "132a36b7-5d47-43cc-93ee-b02107fdddad",
-            "value": "ANCHOR.screen_center"
+            "value": "ANCHOR.none"
         },
         {
             "id": "81e089c0-eec8-47f5-8994-8aed9d34d0e4",
