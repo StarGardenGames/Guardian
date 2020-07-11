@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "159b29e7-7a9f-48f1-87ef-71e813c0cede",
+            "Value": {
+                "id": "bd96268f-2161-4940-9774-3d84b4154d83",
+                "resourcePath": "objects\\oLevelSelect\\oLevelSelect.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1698bbf6-79c6-423e-a781-bbc65d954dcb",
             "Value": {
                 "id": "73817cf2-e62c-4c9f-a6df-eb09053e7451",
@@ -339,6 +347,14 @@
             "Value": {
                 "id": "f0a0b8f4-2969-492a-bc26-9199c53a67c8",
                 "resourcePath": "scripts\\setInputTabbingKeys\\setInputTabbingKeys.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1ad3927a-2357-4ae1-abb0-750b683c5245",
+            "Value": {
+                "id": "663e9680-50b3-4fa0-8178-3764b1dcf7eb",
+                "resourcePath": "scripts\\buttonToggleLevelSelect\\buttonToggleLevelSelect.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -802,7 +818,7 @@
             "Key": "4b0fae53-9b57-48f9-bdb4-96f9a5443503",
             "Value": {
                 "id": "981257d4-a45b-4a19-996b-9c0e6810caad",
-                "resourcePath": "scripts\\buttonPlayGame\\buttonPlayGame.yy",
+                "resourcePath": "scripts\\buttonPlayLevel\\buttonPlayLevel.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3044,6 +3060,7 @@
         "4b0fae53-9b57-48f9-bdb4-96f9a5443503",
         "f979ade1-d27a-458c-a985-ba96b5c0c3dc",
         "be730fb4-0317-4914-956b-899a58624cef",
+        "1ad3927a-2357-4ae1-abb0-750b683c5245",
         "a6e66556-d967-46a7-8a37-5bfb52c03d43",
         "03d404b3-a385-4510-993a-847505e7df53"
     ],

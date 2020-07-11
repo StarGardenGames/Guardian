@@ -15,3 +15,13 @@ name = concat(
 	abc[irandom(25)],
 )
 loaded_name = ""
+
+addInputMapping("left", [vk_left, ord("A")], INPUT_METHOD.keyboard)
+addInputMapping("right", [vk_right, ord("D")], INPUT_METHOD.keyboard)
+addInputMapping("up", [vk_up, ord("W")], INPUT_METHOD.keyboard)
+addInputMapping("down", [vk_down, ord("S")], INPUT_METHOD.keyboard)
+
+addJoystickMapping("left", gp_axislh, -1)
+addJoystickMapping("right", gp_axislh, 1)
+addJoystickMapping("up", gp_axislv, -1)
+addJoystickMapping("down", gp_axislv, 1)

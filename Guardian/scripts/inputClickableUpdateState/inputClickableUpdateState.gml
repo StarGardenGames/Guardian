@@ -7,15 +7,13 @@ if(interactable){
 	// loop through mouses
 	ds_list_clear(mouse_list)
 	var is_gui = inputClickableIsGUI();
+	var x1 = inputClickableX1()
+	var y1 = inputClickableY1()
+	var x2 = inputClickableX2()
+	var y2 = inputClickableY2()
 	with(oInputMouse){
 		var xx = (is_gui)? gui_x : room_x
 		var yy = (is_gui)? gui_y : room_y
-		var anchor_x = anchorX(other.anchor, other.anchor_obj)
-		var anchor_y = anchorY(other.anchor, other.anchor_obj)
-		var x1 = anchor_x + other.x1
-		var y1 = anchor_y + other.y1
-		var x2 = anchor_x + other.x2
-		var y2 = anchor_y + other.y2
 		if(other.click_shape_is_ellipse){
 			var rx = abs((x2 - x1))/2
 			var ry = abs((y2 - y1))/2

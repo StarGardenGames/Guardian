@@ -1,0 +1,1 @@
+oLevelSelect.enabled = !oLevelSelect.enabled
