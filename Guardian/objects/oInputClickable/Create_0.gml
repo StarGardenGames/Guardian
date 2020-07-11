@@ -1,6 +1,6 @@
 event_inherited()
 
-draw_debug = false;
+draw_debug = true;
 pressed = false;
 held = false;
 released = false;

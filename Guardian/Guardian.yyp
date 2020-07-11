@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "04200921-29ca-4312-a65b-9724b6547928",
+            "Value": {
+                "id": "a083f1f1-1413-460d-9e5c-be7a59d98bf5",
+                "resourcePath": "scripts\\buttonArrow\\buttonArrow.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "061ec237-0458-4093-a4a0-089e7138adc1",
             "Value": {
                 "id": "d33d3ee4-9bce-46c0-bb97-2e0d0014703a",
@@ -183,6 +191,14 @@
             }
         },
         {
+            "Key": "0e47bbee-59ad-4213-84e2-46c5fa52c419",
+            "Value": {
+                "id": "6c8ddc6c-282f-47d2-b4b0-37d978cfe84a",
+                "resourcePath": "sprites\\sArrow\\sArrow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0e793e1f-e2f2-4d46-9b70-fc197a1e9ed9",
             "Value": {
                 "id": "e2f77132-4790-4564-b7e2-215cd8a94d56",
@@ -244,6 +260,14 @@
                 "id": "97e81354-1390-4e62-85f3-de0497633089",
                 "resourcePath": "scripts\\log\\log.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "12203b4a-7571-40a5-9e79-ada835666fd2",
+            "Value": {
+                "id": "a83ef7e4-67a9-43f8-b4c7-0163d36f94fc",
+                "resourcePath": "objects\\oArrow\\oArrow.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1724,6 +1748,14 @@
                 "id": "870b2733-97d9-4aaf-a1fb-d770911d0cc1",
                 "resourcePath": "paths\\pathRecord\\pathRecord.yy",
                 "resourceType": "GMPath"
+            }
+        },
+        {
+            "Key": "9d6b5c5a-8dd3-46f6-82be-07ade391e7ab",
+            "Value": {
+                "id": "cf9fd124-8691-437d-948d-0b59b75c1395",
+                "resourcePath": "objects\\oPreview\\oPreview.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3213,6 +3245,7 @@
         "f979ade1-d27a-458c-a985-ba96b5c0c3dc",
         "be730fb4-0317-4914-956b-899a58624cef",
         "1ad3927a-2357-4ae1-abb0-750b683c5245",
+        "04200921-29ca-4312-a65b-9724b6547928",
         "a6e66556-d967-46a7-8a37-5bfb52c03d43",
         "03d404b3-a385-4510-993a-847505e7df53",
         "5813773d-9525-422c-b648-7faadc416a08",
