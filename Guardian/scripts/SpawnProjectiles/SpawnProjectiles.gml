@@ -14,7 +14,7 @@ if(instance_number(oProjectile) < 3 + numSpawns/20){ //number of spawns increase
 				with(inst) dir = edge;
 			break;
 			case "left":
-				inst = instance_create_depth(room_width-1,irandom(room_height-16),0,oProjectile);
+				inst = instance_create_depth(room_width+16,irandom(room_height-16),0,oProjectile);
 				with(inst) dir = edge;
 			break;
 			case "down":

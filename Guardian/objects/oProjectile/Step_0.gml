@@ -2,6 +2,7 @@ event_inherited();
 
 switch(dir){
 	case "right":
+		image_angle = 0;
 		x += moveSpeed*slowfactor; 
 	break;
 	case "up":
@@ -9,6 +10,7 @@ switch(dir){
 		y -= moveSpeed*slowfactor;
 	break;
 	case "left":
+		image_angle = 180;
 		x -= moveSpeed*slowfactor; 
 	break;
 	case "down":
@@ -16,6 +18,6 @@ switch(dir){
 		y += moveSpeed*slowfactor;
 	break;
 }
-if(x > room_width || x < -sprite_width || y > room_height || y < -sprite_height){
+if(x > room_width + 150 || x < -150 || y > room_height + 150 || y < -150){
 	instance_destroy();
 }

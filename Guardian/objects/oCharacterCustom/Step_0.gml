@@ -2,7 +2,7 @@ event_inherited();
 
 if(ds_list_size(oPersistent.xs) == 0) exit
 
-if(!selected){
+if(state == CHAR_STATE.unselected){
 	pos_index += slowfactor
 	
 	if(pos_index >= ds_list_size(oPersistent.xs)){

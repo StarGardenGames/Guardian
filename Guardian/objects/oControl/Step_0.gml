@@ -1,3 +1,4 @@
 SwitchCharacter();
-SpawnProjectiles();
-MovingWalls();
+//SpawnProjectiles();
+//MovingWalls();
+//SpawnAttractors();
