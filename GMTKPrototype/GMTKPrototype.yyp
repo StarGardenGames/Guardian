@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "2686beb5-d758-4906-bb70-6330284ae1cb",
+            "Value": {
+                "id": "2de11c51-365a-42ab-993b-4b1d4d37f7d5",
+                "resourcePath": "objects\\oCharacterCustom\\oCharacterCustom.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "27ce390e-efcb-42a8-a7a4-452ed5d69383",
             "Value": {
                 "id": "fc099e51-d5fe-43a9-a85e-fccb46d77f61",
@@ -515,6 +523,14 @@
             "Value": {
                 "id": "9628820f-1f9a-417c-bba9-a1058bb202b6",
                 "resourcePath": "objects\\oAnchoredObject\\oAnchoredObject.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2fd77b16-8d20-48c4-8521-76fa77cb869f",
+            "Value": {
+                "id": "372becd7-9815-4bfb-9fe8-4892abe6c613",
+                "resourcePath": "objects\\oRecord\\oRecord.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -987,6 +1003,14 @@
             "Value": {
                 "id": "cdcc12fc-02e2-4881-98e8-5df948ed515a",
                 "resourcePath": "sprites\\sCharacterUp\\sCharacterUp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "655fcf6c-53c4-40f0-a35e-73be0282772f",
+            "Value": {
+                "id": "55948da2-b2e2-4d2f-a1c8-76c318148e01",
+                "resourcePath": "sprites\\sprite14\\sprite14.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1524,6 +1548,14 @@
                 "id": "6d9b0a8f-09d3-46c9-91d3-769b83242891",
                 "resourcePath": "scripts\\joinArrays\\joinArrays.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9c1cc5bd-7148-4dc4-9734-5cb05a111b7d",
+            "Value": {
+                "id": "870b2733-97d9-4aaf-a1fb-d770911d0cc1",
+                "resourcePath": "paths\\pathRecord\\pathRecord.yy",
+                "resourceType": "GMPath"
             }
         },
         {
@@ -2596,6 +2628,14 @@
                 "id": "aa16446f-3c31-47fe-9aab-10a86dc45c58",
                 "resourcePath": "scripts\\bitPrefix\\bitPrefix.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f2fdf494-4a15-424b-9188-7495af94d3e8",
+            "Value": {
+                "id": "235fd8ab-5667-4a05-8ed7-6c3050554598",
+                "resourcePath": "rooms\\roomPathRecord\\roomPathRecord.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
