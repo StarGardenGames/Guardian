@@ -1,2 +1,3 @@
 SwitchCharacter();
 SpawnProjectiles();
+MovingWalls();
