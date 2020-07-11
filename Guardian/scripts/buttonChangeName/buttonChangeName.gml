@@ -1,1 +1,1 @@
-oPersistent.name = get_string("What's your name?", "")//show_question_async("What's your name?")
+oPersistent.name = get_string("What's your name?", oPersistent.name)//show_question_async("What's your name?")

@@ -6,3 +6,6 @@ with(oCharacter){
 	selected = true;
 	path_end();
 }
+
+xs = ds_list_create()
+ys = ds_list_create()

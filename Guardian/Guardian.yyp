@@ -2727,6 +2727,14 @@
             }
         },
         {
+            "Key": "f979ade1-d27a-458c-a985-ba96b5c0c3dc",
+            "Value": {
+                "id": "3e8b9366-0739-4672-9a41-027bd1562940",
+                "resourcePath": "scripts\\buttonRecordPattern\\buttonRecordPattern.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f9c87a63-63b8-465e-bf34-c4a5286ef307",
             "Value": {
                 "id": "b75cbad1-7711-4697-9d58-c0d166e662b3",
@@ -2994,6 +3002,7 @@
         "29d0d869-f594-48da-84ed-d829c1ebf9de",
         "12471ea7-8a53-40b1-93ab-af4a65022690",
         "4b0fae53-9b57-48f9-bdb4-96f9a5443503",
+        "f979ade1-d27a-458c-a985-ba96b5c0c3dc",
         "be730fb4-0317-4914-956b-899a58624cef",
         "a6e66556-d967-46a7-8a37-5bfb52c03d43",
         "03d404b3-a385-4510-993a-847505e7df53"

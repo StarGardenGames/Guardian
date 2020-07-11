@@ -12,6 +12,7 @@ case "get_path":
 		for(var i = 0; i < ds_list_size(xs); i++){
 			path_add_point(pathRecord, xs[|i], ys[|i], 100)
 		}
+		loaded_name = path_map[? "name" ]
 		ds_map_destroy(path_map)
     }else{
         log(request_ids[? async_load[? "id"]])
