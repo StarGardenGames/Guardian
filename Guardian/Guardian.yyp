@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "19ca6e8f-35bf-4bce-83e0-3f626ea717be",
+            "Value": {
+                "id": "83e10a15-b975-4d36-b8ab-eaf3cf69b972",
+                "resourcePath": "sprites\\sElectricWallSides\\sElectricWallSides.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1ad3927a-2357-4ae1-abb0-750b683c5245",
             "Value": {
                 "id": "663e9680-50b3-4fa0-8178-3764b1dcf7eb",
@@ -522,7 +530,7 @@
             "Key": "2664bafc-e252-4cff-b1f6-937c0050f0ea",
             "Value": {
                 "id": "9a12365b-7a65-43d7-a729-c486932c2f01",
-                "resourcePath": "sprites\\sElectricWall\\sElectricWall.yy",
+                "resourcePath": "sprites\\sElectricWallTopBottom\\sElectricWallTopBottom.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3028,6 +3036,14 @@
                 "id": "2d4909d9-32c3-4e19-b905-9b6e344f2d81",
                 "resourcePath": "scripts\\inputRecordInput\\inputRecordInput.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "fd9770cb-54bb-4cca-876a-a271d99a90c2",
+            "Value": {
+                "id": "28e16b22-5e4c-4576-bc97-95068c4b05f8",
+                "resourcePath": "sprites\\sElectricWallSmall\\sElectricWallSmall.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
