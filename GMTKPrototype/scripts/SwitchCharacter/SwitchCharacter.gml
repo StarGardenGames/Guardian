@@ -2,6 +2,7 @@
 if(keyboard_check_pressed(vk_tab)){
 	with(chararr[index]){
 			selected = !selected; 
+			path_start(path,moveSpeed,path_action_continue,false);
 	}	
 	index++; 	
 	if(index > array_length_1d(chararr) - 1){
@@ -9,5 +10,6 @@ if(keyboard_check_pressed(vk_tab)){
 	}
 	with(chararr[index]){
 			selected = !selected; 
+			path_end();
 	}
 }

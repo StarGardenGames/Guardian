@@ -5,5 +5,6 @@ for(var i = 0; i < instance_number(oCharacter); i++){
 }
 
 with(chararr[index]){
+	path_end();
 	selected = true; 	
 }

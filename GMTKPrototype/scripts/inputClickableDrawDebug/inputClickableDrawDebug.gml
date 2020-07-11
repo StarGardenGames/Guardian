@@ -29,7 +29,7 @@ if(inputClickableIsGUI()){
 			screenScale*inputClickableX2(), screenScale*inputClickableY2(), false)
 	}else{
 		// screenScale is applied within drawRectangle
-		drawRectangle(
+		draw_rectangle(
 			inputClickableX1(), inputClickableY1(),
 			inputClickableX2(), inputClickableY2(), false)
 	}

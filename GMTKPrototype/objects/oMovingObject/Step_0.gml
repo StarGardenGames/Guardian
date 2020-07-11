@@ -1,5 +1,6 @@
 if(keyboard_check(vk_space)){
-	slowfactor = 1/32;
+	slowfactor = lerp(slowfactor,1/30,0.08);
 }else{
-	slowfactor = 1;
+	slowfactor = lerp(slowfactor,1,0.08);
+	if(slowfactor > 0.8) slowfactor = 1;
 }
