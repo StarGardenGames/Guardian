@@ -53,6 +53,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "dbc93e7e-bebb-4609-9b1b-860125f6ec58"
+        },
+        {
+            "id": "a60f3f46-da0c-4ecd-8785-19d3cfab22ea",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 3,
+            "eventtype": 2,
+            "m_owner": "dbc93e7e-bebb-4609-9b1b-860125f6ec58"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -84,6 +94,20 @@
             "resourceFilter": 1023,
             "value": "30",
             "varName": "leveltime",
+            "varType": 0
+        },
+        {
+            "id": "5117beb9-bb7b-4ece-9eb0-c719ce0eb611",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "character_spawn_seconds",
             "varType": 0
         }
     ],

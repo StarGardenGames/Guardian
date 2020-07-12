@@ -1,4 +1,4 @@
-var safecharacters = 0;
+Pervar safecharacters = 0;
 
 for(var i = 0; i < instance_number(oCharacter); i++){
 	if(instance_find(oCharacter,i).state == CHAR_STATE.safe) safecharacters++;
