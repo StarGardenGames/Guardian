@@ -17,5 +17,10 @@ switch(state){
 		}
 		break;
 }
-
-if(place_meeting(x,y,oProjectile) || place_meeting(x,y,oWall)) alarm_set(0,alarm_get(0) + 1) 
+var dt = 0;
+if(place_meeting(x,y,oProjectile) || place_meeting(x,y,oWall)){
+	with(oWall){
+		if(state != WALL_STATE.inactive) dt = 1;
+	}
+	alarm_set(0,alarm_get(0) + dt)
+}
