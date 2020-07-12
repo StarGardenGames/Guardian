@@ -1,4 +1,4 @@
 draw_set_font(fBigFont)
-draw_set_halign(fa_center)
-draw_set_valign(fa_center)
-draw_text(x, y, oRecord.record[? "name"])
+draw_set_halign(fa_left)
+draw_set_valign(fa_left)
+draw_text(x, y, concat("Name: ",oRecord.record[? "name"]))

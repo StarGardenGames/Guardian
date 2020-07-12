@@ -11,9 +11,7 @@ my_record = ds_map_create()
 ds_map_add_list(my_record, "xs", ds_list_create())
 ds_map_add_list(my_record, "ys", ds_list_create())
 my_record[?"name"] = concat(
-	abc[irandom(25)],
-	abc[irandom(25)],
-	abc[irandom(25)],
+	"YourName"
 )
 
 global_records = ds_list_create()

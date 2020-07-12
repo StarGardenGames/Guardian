@@ -695,6 +695,14 @@
             }
         },
         {
+            "Key": "2c188866-5083-4a97-abc4-239a9affaf67",
+            "Value": {
+                "id": "e49a6e68-aaa8-4de9-bc8f-f592ff72ff21",
+                "resourcePath": "sprites\\sRecordScreenBG\\sRecordScreenBG.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2f3496a2-aa50-4a46-9b62-3fdb0a1dafd3",
             "Value": {
                 "id": "9628820f-1f9a-417c-bba9-a1058bb202b6",
