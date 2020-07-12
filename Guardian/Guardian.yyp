@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "0ffd2790-6cd3-4d95-a022-c597e7d9a1b4",
+            "Value": {
+                "id": "61965f01-556d-4dd9-8395-36d75928f445",
+                "resourcePath": "objects\\oTextScroll\\oTextScroll.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "109db18f-55eb-4f44-8af1-5137371e7128",
             "Value": {
                 "id": "5f113de3-7b39-49cb-b856-8731d3b3750c",
@@ -1255,6 +1263,14 @@
             }
         },
         {
+            "Key": "55a09276-8083-47de-ab2e-0b75dd3ebe20",
+            "Value": {
+                "id": "dfe98c02-93fa-482c-b952-b6ad2e9b0492",
+                "resourcePath": "rooms\\rm_start\\rm_start.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "55c25775-fc9e-46d2-8576-4d1c3244d6dc",
             "Value": {
                 "id": "3b9568ae-b229-4903-b386-59b845d2d4bf",
@@ -1548,14 +1564,6 @@
                 "id": "e5e60ae9-d9d6-4aad-a57e-9412b3f76665",
                 "resourcePath": "datafiles_yy\\bad_words.json.yy",
                 "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "6a90a2e8-b15c-4448-a521-cb3a85ca2f9e",
-            "Value": {
-                "id": "8ffa11e6-e148-4aa1-9077-5a1cad922b12",
-                "resourcePath": "rooms\\rm_start\\rm_start.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
