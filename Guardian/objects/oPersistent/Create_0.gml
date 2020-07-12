@@ -2,7 +2,7 @@ levels = [
 	rm_1,
 	rm_local,
 	rm_online,
-	rm_2,
+	rm_firstmovingwall,
 	rm_3,
 	rm_4,
 	rm_5,
