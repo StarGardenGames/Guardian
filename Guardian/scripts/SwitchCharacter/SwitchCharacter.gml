@@ -1,6 +1,6 @@
 //Characters are assigned randomly to elements of chararr
 if(checkPressed("swap")){
-	with(chararr[index]){
+	with(instance_find(oCharacter,index)){
 		if(state != CHAR_STATE.safe){
 			state = CHAR_STATE.unselected;
 			if(object_is_ancestor(object_index, oCharacterPath)){
@@ -13,10 +13,10 @@ if(checkPressed("swap")){
 		}
 	}	
 	index++; 	
-	if(index > array_length_1d(chararr) - 1){
+	if(index > (instance_number(oCharacter)-1)){
 		index = 0; 	
 	}
-	with(chararr[index]){
+	with(instance_find(oCharacter,index)){
 		if(state != CHAR_STATE.safe){
 			state = CHAR_STATE.selected;
 			if(object_is_ancestor(object_index, oCharacterPath)){
