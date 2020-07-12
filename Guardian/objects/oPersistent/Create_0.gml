@@ -28,9 +28,4 @@ addJoystickMapping("right", gp_axislh, 1)
 addJoystickMapping("up", gp_axislv, -1)
 addJoystickMapping("down", gp_axislv, 1)
 
-print(room)
-with(oInput){
-	printMap(mappings[? INPUT_METHOD.keyboard ]);	
-}
-
 room_goto(rm_menu)

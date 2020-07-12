@@ -1,8 +1,5 @@
 event_inherited();
 
-print(record, oPersistent.my_record)
-printMap(oPersistent.my_record)
-
 sprite_index = sprs[ record[? "type"] ]
 
 var xs = record[? "xs" ]

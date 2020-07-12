@@ -3,9 +3,13 @@ if(state != prevstate){
 		if(object_is_ancestor(object_index, oCharacterPath)){
 			path_start(path,moveSpeed,path_action_continue,false);
 		}
-		if(object_index == oCharacterCustom){
-			base_x = x - (oPersistent.my_xs[| floor(pos_index) % ds_list_size(oPersistent.my_xs)] - oPersistent.my_xs[|0])
-			base_y = y - (oPersistent.my_ys[| floor(pos_index) % ds_list_size(oPersistent.my_ys)] - oPersistent.my_ys[|0])
+		if(object_is_ancestor(object_index, oCharacterCustom)){
+			var xs = record[? "xs"]
+			var ys = record[? "ys"]
+			if(ds_list_size(xs) > 0){
+				base_x = x - (xs[| floor(pos_index) % ds_list_size(xs)] - xs[|0])
+				base_y = y - (ys[| floor(pos_index) % ds_list_size(ys)] - ys[|0])
+			}
 		}
 	}
 
@@ -27,8 +31,8 @@ switch(state){
 			dx /= m
 			dy /= m
 	
-			x += dx * moveSpeed * slowfactor;
-			y += dy * moveSpeed * slowfactor;			
+			x += dx * moveSpeed * slowfactor * ((room == roomPathRecord)? 1/4 : 1);
+			y += dy * moveSpeed * slowfactor * ((room == roomPathRecord)? 1/4 : 1);			
 		}
 		break;
 	case CHAR_STATE.attracted:
