@@ -4,5 +4,6 @@ enum LEVEL_STATE{
 }
 
 state = LEVEL_STATE.pre;
-
+currenttime = leveltime
+dt = 1
 alarm[1] = 1; 

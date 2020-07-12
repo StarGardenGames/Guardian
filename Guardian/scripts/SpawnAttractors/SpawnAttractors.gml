@@ -15,6 +15,6 @@ if(instance_number(oAttractor) > 0){
 with(oWall) if(state != WALL_STATE.inactive) exit; 
 if(irandom(spawnchance) != 1) exit; 
 
-if(instance_number(oAttractor) <= maxattractors){
+if(instance_number(oAttractor) < maxattractors){
 	instance_create_depth(irandom(1100),irandom(590),-1,oAttractor)
 }

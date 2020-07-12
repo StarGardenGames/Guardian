@@ -1,4 +1,4 @@
 /// @description End Level
 // You can write your code in this editor
 
-room_goto(rm_menu);
+//room_goto(rm_menu);

@@ -3,6 +3,8 @@ var levels = [
 	rm_2,
 	rm_3,
 	rm_2_custom,
+	rm_4,
+	rm_5,
 ]
 
 enabled = false

@@ -9,6 +9,7 @@ with(char){
 	visible = true; 
 	if(numChars == safestates){		
 		state = CHAR_STATE.selected;
+		oControl.index = char.id;  
 	}else{
 		state = CHAR_STATE.unselected; 
 	}
