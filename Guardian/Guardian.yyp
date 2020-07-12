@@ -378,7 +378,7 @@
             "Key": "145e405f-5773-4600-8ade-2f9c9e04f624",
             "Value": {
                 "id": "799f59f6-00dd-43ce-9337-003017c896c2",
-                "resourcePath": "sprites\\sSignSlowTime\\sSignSlowTime.yy",
+                "resourcePath": "sprites\\sSignMove\\sSignMove.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3250,7 +3250,7 @@
             "Key": "e1b93af5-1449-4e09-b692-a2265adbcd1c",
             "Value": {
                 "id": "67d1f824-f8c5-431d-a8de-1a83168f8b14",
-                "resourcePath": "sprites\\sSignMove\\sSignMove.yy",
+                "resourcePath": "sprites\\sSignSlow\\sSignSlow.yy",
                 "resourceType": "GMSprite"
             }
         },

@@ -6,6 +6,5 @@ draw_self()
 }*/
 
 if(state == CHAR_STATE.selected){
-	draw_set_color(c_yellow)
-	draw_rectangle(x-sprite_width/2, y-sprite_height, x+sprite_width/2, y, true)
+	draw_sprite_ext(sSelected, 0, x, y, image_xscale, image_yscale, 0, c_white, 1)
 }
