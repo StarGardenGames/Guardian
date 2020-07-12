@@ -1,18 +1,27 @@
 event_inherited();
 
-if(ds_list_size(oPersistent.my_xs) == 0) exit
+print(record, oPersistent.my_record)
+printMap(oPersistent.my_record)
+
+sprite_index = sprs[ record[? "type"] ]
+
+var xs = record[? "xs" ]
+var ys = record[? "ys" ]
+	
+if(ds_list_size(xs) == 0) exit
 
 if(state == CHAR_STATE.unselected){
 	pos_index += slowfactor
 	
-	if(pos_index >= ds_list_size(oPersistent.my_xs)){
-		pos_index -= ds_list_size(oPersistent.my_xs)
+	if(pos_index >= ds_list_size(xs)){
+		pos_index -= ds_list_size(xs)
 		base_x = x
 		base_y = y
 	}
 	
-	x = base_x + oPersistent.my_xs[| floor(pos_index) % ds_list_size(oPersistent.my_xs)] - oPersistent.my_xs[|0]
-	y = base_y + oPersistent.my_ys[| floor(pos_index) % ds_list_size(oPersistent.my_ys)] - oPersistent.my_ys[|0]
+
+	x = base_x + xs[| floor(pos_index) % ds_list_size(xs)] - xs[|0]
+	y = base_y + ys[| floor(pos_index) % ds_list_size(ys)] - ys[|0]
 }
 
 

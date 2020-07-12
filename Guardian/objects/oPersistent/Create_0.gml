@@ -10,9 +10,8 @@ var abc = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n",
 my_record = ds_map_create()
 ds_map_add_list(my_record, "xs", ds_list_create())
 ds_map_add_list(my_record, "ys", ds_list_create())
-my_record[?"name"] = concat(
-	"YourName"
-)
+my_record[? "type"] = 0
+my_record[?"name"] = "YourName"
 
 global_records = ds_list_create()
 

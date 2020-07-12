@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "14795151-a648-4d37-8587-80a5549b7280",
+            "Value": {
+                "id": "390dd00a-fb6f-4f10-8800-90789e9d28ac",
+                "resourcePath": "objects\\oCharacterLocal\\oCharacterLocal.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "15333542-2f1f-41b3-9d82-82f93c67b643",
             "Value": {
                 "id": "981467f6-6652-4a5b-9f83-8c8a7f45c54b",
@@ -1119,6 +1127,14 @@
             }
         },
         {
+            "Key": "5409c210-510f-442e-8ae7-db77ceb52b99",
+            "Value": {
+                "id": "19049fc6-89e5-453a-8c22-3f95280ab6c9",
+                "resourcePath": "rooms\\rm_2_custom\\rm_2_custom.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "54e2fd3a-727b-4145-9b78-5066f645a3f8",
             "Value": {
                 "id": "d5f84e60-f17e-4dcc-abd1-63f74e13d9f8",
@@ -1684,6 +1700,14 @@
                 "id": "0a54d666-476d-4b86-862e-f666f3fbf361",
                 "resourcePath": "sprites\\sDogIdle\\sDogIdle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "87854735-7375-4f91-ab26-d1b35b55f82e",
+            "Value": {
+                "id": "d9514560-0115-4faa-8eef-226f19bb62ef",
+                "resourcePath": "objects\\oCharacterOnline\\oCharacterOnline.yy",
+                "resourceType": "GMObject"
             }
         },
         {
