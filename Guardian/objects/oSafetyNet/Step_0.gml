@@ -12,7 +12,9 @@ switch(state){
 		break;
 	case SAFETY_STATE.release:
 		image_speed = -1; 
-		if(image_index <= 0) instance_destroy();
+		if(image_index <= 0){
+			instance_destroy();
+		}
 		break;
 }
 

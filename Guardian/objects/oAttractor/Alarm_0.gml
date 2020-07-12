@@ -1,2 +1,3 @@
-///@description Destroy self
+///@description Destroy self\
+
 instance_destroy()

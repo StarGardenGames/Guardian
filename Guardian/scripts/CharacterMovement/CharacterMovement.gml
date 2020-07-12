@@ -51,6 +51,7 @@ switch(state){
 
 var safetynet = instance_place(x,y,oSafetyNet)
 if(safetynet != noone && safetynet.state == SAFETY_STATE.empty){
+	audio_play_sound(soundSafetyNet,1,false);
 	state = CHAR_STATE.safe;
 	safetynet.state = SAFETY_STATE.caught;
 	safetynet.char = id;

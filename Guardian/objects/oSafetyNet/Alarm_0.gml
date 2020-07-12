@@ -15,3 +15,5 @@ with(char){
 }
 
 state = SAFETY_STATE.release;
+
+audio_play_sound(soundSafetyNetEnd,1,false);
