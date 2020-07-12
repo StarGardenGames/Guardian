@@ -5,6 +5,7 @@ event_inherited()
 
 if(script != noone && (released || checkReleased(input_name))){
 	scriptExecuteWithArrayArgs(script, script_args)
+	audio_play_sound(soundUI,1,false)
 }
 
 // respond to anchor updates (if we have an anchor)
