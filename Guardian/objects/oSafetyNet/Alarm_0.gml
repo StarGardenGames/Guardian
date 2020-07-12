@@ -8,8 +8,7 @@ for(var i = 0; i < numChars; i++){
 with(char){
 	visible = true; 
 	if(numChars == safestates){		
-		state = CHAR_STATE.selected;
-		oControl.index = char.id;  
+		oControl.index = index;  
 	}else{
 		state = CHAR_STATE.unselected; 
 	}

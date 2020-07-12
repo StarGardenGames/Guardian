@@ -5,13 +5,15 @@ var levels = [
 	rm_2_custom,
 	rm_4,
 	rm_5,
+	rm_6,
+	rm_7,
 ]
 
 enabled = false
 if(!enabled) y-=room_height
 
-var num_columns = 3
-var num_rows = 3
+var num_columns = 5
+var num_rows = 5
 var gap = 15
 
 draw_set_font(fBigFont)
