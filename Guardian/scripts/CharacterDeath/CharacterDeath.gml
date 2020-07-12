@@ -9,6 +9,7 @@ if(x > room_width || x < -sprite_width || y > room_height || y < -sprite_height)
 	death_ring = true
 	image_index = 0
 	audio_play_sound(soundDeath,1,false)
+	with(oLevelTimer) dt = 0;
 }
 
 //Hitting Projectile
@@ -20,4 +21,5 @@ if(instance_place(x,y,oProjectile) || instance_place(x,y,oWall) || instance_plac
 	death_ring = true
 	image_index = 0
 	audio_play_sound(soundDeath,1,false)
+	with(oLevelTimer) dt = 0;
 }
