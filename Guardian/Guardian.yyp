@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "145e405f-5773-4600-8ade-2f9c9e04f624",
+            "Value": {
+                "id": "799f59f6-00dd-43ce-9337-003017c896c2",
+                "resourcePath": "sprites\\sSignSlowTime\\sSignSlowTime.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1461f20f-b6f2-4c56-b134-cf4e481c62a1",
             "Value": {
                 "id": "ff2864be-d13d-4278-824f-db7285765eaf",
@@ -2743,6 +2751,14 @@
             }
         },
         {
+            "Key": "d55f92b4-dac8-49e8-b7f1-ae85b2fd1ad6",
+            "Value": {
+                "id": "f4874f9a-7969-4fe2-9ae5-9467554ea414",
+                "resourcePath": "sprites\\sSignChangeCharacter\\sSignChangeCharacter.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d6285ea4-72db-4f0d-89a2-e988c9a196d6",
             "Value": {
                 "id": "6dbaa4e5-d6fc-4e7c-854d-0b0766f44005",
@@ -2876,6 +2892,14 @@
                 "id": "e4a26c3b-b29f-4850-98fa-027ff171ce30",
                 "resourcePath": "scripts\\tryKeyboardString\\tryKeyboardString.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e1b93af5-1449-4e09-b692-a2265adbcd1c",
+            "Value": {
+                "id": "67d1f824-f8c5-431d-a8de-1a83168f8b14",
+                "resourcePath": "sprites\\sSignMove\\sSignMove.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
