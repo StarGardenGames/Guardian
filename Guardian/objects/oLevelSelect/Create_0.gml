@@ -1,8 +1,7 @@
 var levels = [
-	rm_game,
-	rm_game,
-	rm_game,
-	rm_game,
+	rm_1,
+	rm_2,
+	rm_3,
 ]
 
 enabled = false

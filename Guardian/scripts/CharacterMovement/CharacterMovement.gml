@@ -52,8 +52,3 @@ if(safetynet != noone && safetynet.state == SAFETY_STATE.empty){
 	safetynet.char = id;
 	SwitchCharacter();
 }
-
-// xprevious doesn't work for paths :'(
-if((x-xprev) != 0){
-	image_xscale = start_scale*sign(x-xprev)
-}
