@@ -1306,7 +1306,7 @@
             "Key": "5e49f5eb-30ce-43a7-9236-0b7aa0f507f1",
             "Value": {
                 "id": "85418c54-7de4-4505-80be-e571312c30f1",
-                "resourcePath": "rooms\\rm_2_local\\rm_2_local.yy",
+                "resourcePath": "rooms\\rm_local\\rm_local.yy",
                 "resourceType": "GMRoom"
             }
         },

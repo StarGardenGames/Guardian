@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_2_local",
+    "name": "rm_local",
     "id": "5e49f5eb-30ce-43a7-9236-0b7aa0f507f1",
     "creationCodeFile": "",
     "inheritCode": true,
