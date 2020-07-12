@@ -858,7 +858,7 @@
             "Key": "364b0093-991e-4d74-972a-b13577bcf02c",
             "Value": {
                 "id": "70e17545-59e5-4aad-a162-0b8bc69f379d",
-                "resourcePath": "rooms\\rm_5\\rm_5.yy",
+                "resourcePath": "rooms\\rm_firstsafetynet\\rm_firstsafetynet.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -2052,6 +2052,14 @@
                 "id": "4169c2ab-9ebb-4369-b190-45b7b0835dbc",
                 "resourcePath": "options\\tvos\\options_tvos.yy",
                 "resourceType": "GMtvOSOptions"
+            }
+        },
+        {
+            "Key": "93c3c249-cfd6-4b5c-9245-b99366cbf1ef",
+            "Value": {
+                "id": "128d1079-c437-4ff3-a0c1-fadc51b89164",
+                "resourcePath": "sprites\\sLevelSixText01\\sLevelSixText01.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
