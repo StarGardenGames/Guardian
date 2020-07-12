@@ -8,6 +8,7 @@ levels = [
 	rm_5,
 	rm_6,
 	rm_7,
+	rm_8,
 ]
 
 urls = ds_map_create()
