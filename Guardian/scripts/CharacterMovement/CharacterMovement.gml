@@ -16,6 +16,8 @@ if(state != prevstate){
 	}
 }
 
+prevstate = state; 
+
 switch(state){	
 	case CHAR_STATE.selected:
 		if(!checkHeld("slow")){
@@ -42,7 +44,7 @@ switch(state){
 		break;
 }
 
-prevstate = state; 
+
 var safetynet = instance_place(x,y,oSafetyNet)
 if(safetynet != noone && safetynet.state == SAFETY_STATE.empty){
 	state = CHAR_STATE.safe;

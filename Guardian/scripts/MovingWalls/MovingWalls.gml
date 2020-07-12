@@ -1,7 +1,4 @@
-if(irandom(100)!=1) exit;
-var rand = irandom(3);
-var edge = screenEdge[rand];
-var inst = noone;
+if(irandom(movechance)!=1) exit;
 with(oWall){
 	if(state != WALL_STATE.inactive) exit; 	
 }

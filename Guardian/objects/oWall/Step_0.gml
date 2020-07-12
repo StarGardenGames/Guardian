@@ -1,5 +1,7 @@
 event_inherited();
 
+image_speed = 1*slowfactor;
+
 switch(state){
 	case WALL_STATE.moving_in:
 		x = lerp(x,targetx,0.01*slowfactor);

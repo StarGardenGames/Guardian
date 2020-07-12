@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "00ccf44c-2d87-4b77-8504-402eeef2ed55",
+            "Value": {
+                "id": "f79a78d9-7807-46cc-a1d3-9a123bd6a058",
+                "resourcePath": "objects\\oElectricWallLong\\oElectricWallLong.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0165003f-9484-4b2d-9866-f9aa603d5557",
             "Value": {
                 "id": "706d1c2a-f988-4f2a-a36f-f953cf6fe138",
@@ -60,6 +68,14 @@
                 "id": "7badef9e-524f-473e-912d-dd0234582425",
                 "resourcePath": "rooms\\rm_sgg_lib\\rm_sgg_lib.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "0393dcba-499d-44eb-8cce-daeaa2872e62",
+            "Value": {
+                "id": "91376666-4d6f-483a-94c0-88714f9b1d24",
+                "resourcePath": "objects\\oElectricWallMedium\\oElectricWallMedium.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -471,6 +487,14 @@
             }
         },
         {
+            "Key": "1cdf0f6c-d860-43df-a697-772622d157d9",
+            "Value": {
+                "id": "81089945-0e8d-4c68-8fc7-f5fdffce4a6d",
+                "resourcePath": "objects\\oProjectileControl\\oProjectileControl.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1df9e21b-fb1f-4be9-b69b-429426ce1a8c",
             "Value": {
                 "id": "ab562114-17b0-46a8-bef8-a712fea06edc",
@@ -548,6 +572,14 @@
                 "id": "af50b7ab-2fa2-4e5e-b44c-2cba84fd1649",
                 "resourcePath": "views\\23599350-9aff-4457-a314-ab5b1cd9f8dc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "237646d9-dce4-4c51-9ec0-695def4fe422",
+            "Value": {
+                "id": "cf01d4f5-89a7-48d8-a4af-7514875e6497",
+                "resourcePath": "objects\\oAttractorControl\\oAttractorControl.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -975,6 +1007,14 @@
             }
         },
         {
+            "Key": "4d320416-e61d-4541-abc7-69eeea8943c3",
+            "Value": {
+                "id": "95912901-6927-422d-9a68-abd5cf73b298",
+                "resourcePath": "objects\\oElectricWall\\oElectricWall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4e16d266-48cd-4d4a-bfe5-d7bd16ea5d73",
             "Value": {
                 "id": "62e83ff9-de3f-4f65-897b-0c98cf207503",
@@ -996,6 +1036,14 @@
                 "id": "bfb69306-bd12-4a73-af7e-540864ad7f52",
                 "resourcePath": "views\\50a6f0fe-65bd-43c3-8dec-7a4bce0317fe.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "525579f3-9265-46b1-acc7-a5667c3fa8f1",
+            "Value": {
+                "id": "d6f02045-9953-4746-b4f9-efe023956c06",
+                "resourcePath": "objects\\oSafetyControl\\oSafetyControl.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1132,6 +1180,14 @@
                 "id": "5003671c-9bbf-45b6-b3de-a7d4e0ce75d5",
                 "resourcePath": "scripts\\bitMarkType\\bitMarkType.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5b24c164-d1cb-49e1-a716-22f823f9ebc2",
+            "Value": {
+                "id": "e15f6d52-e4a8-4534-89e0-c29c28180307",
+                "resourcePath": "objects\\oWallControl\\oWallControl.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2771,6 +2827,14 @@
             "Value": {
                 "id": "39ce16bf-30fd-429d-8697-ec8f6aa4fa46",
                 "resourcePath": "objects\\oConsoleText3\\oConsoleText3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "de8e046b-1064-4307-8004-aed0fd964e69",
+            "Value": {
+                "id": "93a13254-e89c-41b2-ac93-85e07bfe3921",
+                "resourcePath": "objects\\oElectricWallShort\\oElectricWallShort.yy",
                 "resourceType": "GMObject"
             }
         },

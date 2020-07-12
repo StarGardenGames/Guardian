@@ -7,5 +7,3 @@ if(checkHeld("slow")){
 
 
 
-xprev = x
-yprev = y

@@ -12,7 +12,9 @@ if(instance_number(oAttractor) > 0){
 	}
 }
 
-if(irandom(300) != 1) exit; 
-if(instance_number(oAttractor) == 0){
-	instance_create_depth(irandom(1280),irandom(720),-1,oAttractor)
+with(oWall) if(state != WALL_STATE.inactive) exit; 
+if(irandom(spawnchance) != 1) exit; 
+
+if(instance_number(oAttractor) <= maxattractors){
+	instance_create_depth(irandom(1100),irandom(590),-1,oAttractor)
 }

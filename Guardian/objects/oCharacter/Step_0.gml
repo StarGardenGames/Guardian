@@ -10,6 +10,9 @@ if(point_distance(xprev,yprev,x,y) > 0){
 	image_index = 0
 }
 
+xprev = x
+yprev = y
+
 CharacterMovement();
 CharacterDeath();
 

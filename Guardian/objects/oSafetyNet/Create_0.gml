@@ -7,3 +7,5 @@ enum SAFETY_STATE{
 state = SAFETY_STATE.empty; 
 depth = 1; 
 char = noone; 
+
+if(place_meeting(x,y,oWall)) instance_destroy();
