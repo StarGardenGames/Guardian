@@ -15,6 +15,14 @@
             "objectId": "89393c15-60b0-47b3-b558-f473fd7676e4",
             "propertyId": "70880c8e-b851-4bfa-96db-476316c22045",
             "value": "pathRight"
+        },
+        {
+            "id": "6b58514a-73e9-4484-9180-e7ffdbf217e3",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "ad99951b-1947-4cb0-a080-19b2d5b59c5a",
+            "propertyId": "a2da00a8-5991-4587-b276-132e60e07e58",
+            "value": "sHamsterIdle"
         }
     ],
     "parentObjectId": "89393c15-60b0-47b3-b558-f473fd7676e4",

@@ -52,7 +52,20 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        
+        {
+            "id": "a2da00a8-5991-4587-b276-132e60e07e58",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "idle_sprite",
+            "varType": 5
+        }
     ],
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
