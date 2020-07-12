@@ -1559,14 +1559,6 @@
             }
         },
         {
-            "Key": "69adbcd1-225d-46b0-80a2-2bba73341ca4",
-            "Value": {
-                "id": "e5e60ae9-d9d6-4aad-a57e-9412b3f76665",
-                "resourcePath": "datafiles_yy\\bad_words.json.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "6bab2d40-d3f8-4e29-b131-50c753c68564",
             "Value": {
                 "id": "f5108b97-2c3e-44a9-a267-4ea06e85e116",

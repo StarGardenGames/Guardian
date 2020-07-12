@@ -12,11 +12,11 @@ if(string_pos(" ", name) != 0){
 	exit
 }
 
-var bad_words = loadJsonFile("bad_words.json")
+/*var bad_words = loadJsonFile("bad_words.json")
 var bad_list = bad_words[? "default"]
 if(ds_list_find_index(bad_list, name)){
 	show_message("Sorry that name didn't pass our filters, please try another one")	
 	exit
-}
+}*/
 
 oPersistent.my_record[? "name"] = name
