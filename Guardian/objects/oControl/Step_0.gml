@@ -2,5 +2,5 @@ if(checkPressed("swap")){
 	SwitchCharacter();
 }
 //SpawnProjectiles();
-//MovingWalls();
+MovingWalls();
 //SpawnAttractors();

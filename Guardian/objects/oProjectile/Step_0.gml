@@ -1,5 +1,5 @@
 event_inherited();
-
+image_speed = moveSpeed*slowfactor/6 + 1/3	
 switch(dir){
 	case "right":
 		image_angle = 0;

@@ -823,6 +823,14 @@
             }
         },
         {
+            "Key": "4082489e-5fc0-4be6-be14-187b6aa8aac5",
+            "Value": {
+                "id": "fe6b3f3a-358d-4a58-ad85-a45bae97a8f3",
+                "resourcePath": "objects\\oWallSides\\oWallSides.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "41483c4e-c694-4e23-a003-aa8e0d50e183",
             "Value": {
                 "id": "ab330f0c-f63d-4663-b08c-b0f0378c7725",
@@ -1708,6 +1716,14 @@
                 "id": "0f994df1-2335-4016-9c9d-a4a378d7b00b",
                 "resourcePath": "scripts\\initInputBlockers\\initInputBlockers.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9272067a-c044-44c1-91ea-e1c79ba21bcc",
+            "Value": {
+                "id": "76296184-8477-4966-9bdd-533e8e930a53",
+                "resourcePath": "objects\\oWallTopBottom\\oWallTopBottom.yy",
+                "resourceType": "GMObject"
             }
         },
         {
