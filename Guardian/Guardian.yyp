@@ -1495,6 +1495,14 @@
             }
         },
         {
+            "Key": "7ff1f2de-b8bf-4e23-ad57-aa17bf679f24",
+            "Value": {
+                "id": "08fdc337-4f6f-40cd-bf8f-9102b2a51b36",
+                "resourcePath": "sprites\\sCharacterElectrified\\sCharacterElectrified.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8300b7dc-72ab-4ac1-832a-0be3c5dd6161",
             "Value": {
                 "id": "dc7b0fb8-c433-4f75-8b8e-db2f90a1444f",
