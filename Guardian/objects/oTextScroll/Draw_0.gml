@@ -1,5 +1,5 @@
 draw_set_font(fBigFont)
-draw_set_color(make_color_rgb(29, 106, 67))
+draw_set_color(make_color_rgb(255, 255, 255))
 draw_set_halign(fa_center)
 draw_set_valign(fa_top)
 draw_text_ext(x+sprite_width/2, y, text, string_height("A"), sprite_width)
