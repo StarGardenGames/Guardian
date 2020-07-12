@@ -1,5 +1,22 @@
-switch(state){
-	
+if(state != prevstate){
+	if(state == CHAR_STATE.unselected){
+		if(object_is_ancestor(object_index, oCharacterPath)){
+			path_start(path,moveSpeed,path_action_continue,false);
+		}
+		if(object_index == oCharacterCustom){
+			base_x = x - (oPersistent.my_xs[| floor(pos_index) % ds_list_size(oPersistent.my_xs)] - oPersistent.my_xs[|0])
+			base_y = y - (oPersistent.my_ys[| floor(pos_index) % ds_list_size(oPersistent.my_ys)] - oPersistent.my_ys[|0])
+		}
+	}
+
+	if(prevstate == CHAR_STATE.unselected){
+		if(object_is_ancestor(object_index, oCharacterPath)){
+			path_end();
+		}	
+	}
+}
+
+switch(state){	
 	case CHAR_STATE.selected:
 		if(!checkHeld("slow")){
 			dx = checkHeld("right") - checkHeld("left"); 
@@ -20,18 +37,19 @@ switch(state){
 			x += moveSpeed * slowfactor * cos(dir) / 4;
 			y -= moveSpeed * slowfactor * sin(dir) / 4;
 		}else{
-			path_start(path,moveSpeed,path_action_continue,false);	
+			state = CHAR_STATE.unselected;	
 		}
 		break;
 }
 
+prevstate = state; 
 var safetynet = instance_place(x,y,oSafetyNet)
 if(safetynet != noone && safetynet.state == SAFETY_STATE.empty){
 	state = CHAR_STATE.safe;
 	safetynet.state = SAFETY_STATE.caught;
 	safetynet.char = id;
 	with(safetynet) alarm[0] = 150;
-	SelectCharacter();
+	SwitchCharacter();
 }
 
 // xprevious doesn't work for paths :'(
