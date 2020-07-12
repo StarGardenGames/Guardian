@@ -1271,6 +1271,14 @@
             }
         },
         {
+            "Key": "58c5005d-13f2-434d-9c7c-4b08f40ed05b",
+            "Value": {
+                "id": "b4c280a6-2492-4c8c-bc15-e7160ab09833",
+                "resourcePath": "sounds\\music\\music.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "5aba1f60-5c2d-4b6d-ad3c-a4feb3521334",
             "Value": {
                 "id": "b1964317-da6a-43e0-b73f-b1bbc9078235",
@@ -1735,6 +1743,14 @@
             }
         },
         {
+            "Key": "84708d1f-e610-45ac-a727-40952e7e8af0",
+            "Value": {
+                "id": "c2acf854-efd7-4af2-8967-91c3b34d2af1",
+                "resourcePath": "sounds\\soundProjectile\\soundProjectile.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "8476c35f-c813-4093-870f-d61a8767c746",
             "Value": {
                 "id": "e8db27da-ea33-4e20-8f4f-54b6d4558d95",
@@ -2108,6 +2124,14 @@
                 "id": "08038c3d-41a8-4cd3-98d8-fb81bb9df966",
                 "resourcePath": "objects\\oInputPlayer\\oInputPlayer.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9e94b547-d8d4-4fe2-86c7-fe6364da2c0e",
+            "Value": {
+                "id": "5b0d0499-463d-494b-b94d-5ea0f7f87fde",
+                "resourcePath": "sounds\\soundDeath\\soundDeath.yy",
+                "resourceType": "GMSound"
             }
         },
         {

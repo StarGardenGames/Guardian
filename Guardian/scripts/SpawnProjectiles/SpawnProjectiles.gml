@@ -18,7 +18,8 @@ if(instance_number(oProjectile) < startingprojectilecount + numSpawns/increasera
 		case "down":
 			inst = instance_create_depth(irandom(room_width-16),0,0,oProjectile);
 			with(inst) dir = edge;
-		break;
+		break;		
 	}
 	numSpawns++;
+	audio_play_sound(soundProjectile,1,false);
 }

@@ -8,6 +8,7 @@ if(x > room_width || x < -sprite_width || y > room_height || y < -sprite_height)
 	sprite_index = sCharacterElectrified
 	death_ring = true
 	image_index = 0
+	audio_play_sound(soundDeath,1,false)
 }
 
 //Hitting Projectile
@@ -18,4 +19,5 @@ if(instance_place(x,y,oProjectile) || instance_place(x,y,oWall) || instance_plac
 	sprite_index = sCharacterElectrified
 	death_ring = true
 	image_index = 0
+	audio_play_sound(soundDeath,1,false)
 }

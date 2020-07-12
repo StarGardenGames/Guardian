@@ -54,3 +54,5 @@ addJoystickMapping("up", gp_axislv, -1)
 addJoystickMapping("down", gp_axislv, 1)
 
 room_goto(rm_menu)
+
+audio_play_sound(music,1,true);
