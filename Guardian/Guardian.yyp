@@ -1135,6 +1135,14 @@
             }
         },
         {
+            "Key": "4b94ff02-859d-403f-9b0f-6539a435d5b2",
+            "Value": {
+                "id": "6afb7d75-92d5-40e7-92ec-0bcb48ba3193",
+                "resourcePath": "sprites\\sButtonLevelSelectIncomplete\\sButtonLevelSelectIncomplete.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4d320416-e61d-4541-abc7-69eeea8943c3",
             "Value": {
                 "id": "95912901-6927-422d-9a68-abd5cf73b298",
@@ -2524,6 +2532,14 @@
                 "id": "9c9b0ac1-7f26-4f32-81d7-138dcea545ab",
                 "resourcePath": "rooms\\rm_staticwalls\\rm_staticwalls.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "b227a0aa-f317-404d-86df-3c725bee82eb",
+            "Value": {
+                "id": "f6f0c6b2-7860-4201-a0db-b895530b14d6",
+                "resourcePath": "sprites\\sButtonLevelSelectComplete\\sButtonLevelSelectComplete.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
