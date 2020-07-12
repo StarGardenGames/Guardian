@@ -2303,6 +2303,14 @@
             }
         },
         {
+            "Key": "a29469ca-a26c-42eb-ab36-c109ec559a53",
+            "Value": {
+                "id": "d45699b0-6be0-4585-b57b-4f8dbb73462b",
+                "resourcePath": "sounds\\soundScript\\soundScript.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a3a51f64-fc0a-40db-b36c-1bed52a7d818",
             "Value": {
                 "id": "d055c4f0-5cc5-4306-a165-0aa85b06d5f6",

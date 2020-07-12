@@ -14,3 +14,5 @@ text = concat("The year is 2070.",
 "\n\n",
 "GOOD LUCK!"
 )
+
+audio_play_sound(soundScript,1,false)
