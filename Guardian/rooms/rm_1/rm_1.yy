@@ -3,7 +3,7 @@
     "name": "rm_1",
     "id": "178de5d7-0c8d-4bba-87ad-3592214dd27b",
     "creationCodeFile": "",
-    "inheritCode": true,
+    "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
@@ -289,7 +289,7 @@
         }
     ],
     "modelName": "GMRoom",
-    "parentId": "b1eb3435-e86f-45c5-9659-fa9739620ecd",
+    "parentId": "00000000-0000-0000-0000-000000000000",
     "physicsSettings":     {
         "id": "d1425ccc-5044-4e83-969d-0a387aa333cb",
         "inheritPhysicsSettings": false,

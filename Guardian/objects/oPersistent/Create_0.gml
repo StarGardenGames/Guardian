@@ -2,13 +2,14 @@ levels = [
 	rm_1,
 	rm_local,
 	rm_online,
-	rm_firstmovingwall,
-	rm_firstattractor,
-	rm_firstsafetynet,
+	rm_movingwall,
+	rm_attractor,
+	rm_safetynet,
+	rm_interiorwalls,
+	rm_fourmovingwalls,
+	rm_splitroom,
 	rm_3,
-	rm_6,
-	rm_7,
-	rm_8,
+	
 ]
 
 urls = ds_map_create()
