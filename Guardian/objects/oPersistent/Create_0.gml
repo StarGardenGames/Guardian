@@ -1,3 +1,13 @@
+levels = [
+	rm_1,
+	rm_2_local,
+	rm_online,
+	rm_2,
+	rm_3,
+	rm_4,
+	rm_5,
+]
+
 urls = ds_map_create()
 urls[? "path" ] = "https://08yawg1a3f.execute-api.us-east-1.amazonaws.com/prod"
 

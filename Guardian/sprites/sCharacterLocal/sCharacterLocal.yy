@@ -2,7 +2,7 @@
     "id": "655fcf6c-53c4-40f0-a35e-73be0282772f",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sCharacterCustom",
+    "name": "sCharacterLocal",
     "For3D": false,
     "HTile": false,
     "VTile": false,

@@ -8,7 +8,9 @@ case "get_path":
     if(ds_map_find_value(async_load, "status") == 0){
 		var m = json_decode(async_load[? "result" ])
 		ds_list_destroy(global_records) 
+		print(json_encode(m))
 		global_records = m[? "default" ]
+		print(json_encode(global_records))
 		// ds_map_destroy(m) // unfortunately we can't destroy m since it refers to global_records
     }else{
         log(request_ids[? async_load[? "id"]])

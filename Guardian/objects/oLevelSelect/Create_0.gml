@@ -1,14 +1,3 @@
-var levels = [
-	rm_1,
-	rm_2,
-	rm_3,
-	rm_2_custom,
-	rm_4,
-	rm_5,
-	rm_6,
-	rm_7,
-]
-
 enabled = false
 if(!enabled) y-=room_height
 
@@ -24,7 +13,7 @@ var button_height = (sprite_height - gap*(num_rows-1) - title_offset)/num_rows
 
 for(var i = 0; i < num_rows; i++){
 	for(var j = 0; j < num_columns; j++){
-		if((i*num_rows + j) > array_length_1d(levels)) continue
+		if((i*num_rows + j) > array_length_1d(oPersistent.levels)) continue
 		
 		var xx = j*(button_width+gap)
 		var yy = title_offset+i*(button_height+gap)
@@ -34,13 +23,13 @@ for(var i = 0; i < num_rows; i++){
 			oTextButton, ANCHOR.screen_object,
 			oLevelSelect
 		)){
-			if((i*num_rows + j) == array_length_1d(levels)){
+			if((i*num_rows + j) == array_length_1d(oPersistent.levels)){
 				text = "BACK"
 				script = buttonToggleLevelSelect
 			}else{
 				text = i*num_rows + j + 1
 				script = buttonPlayLevel
-				script_args = [levels[i*num_rows + j]]
+				script_args = [oPersistent.levels[i*num_rows + j]]
 			}
 		}
 	}
