@@ -1,6 +1,7 @@
-event_inherited();
+start_sprite_index = sprs[ record[? "type"] ]
+idle_sprite = spr_idles[ record[? "type"] ]
 
-sprite_index = sprs[ record[? "type"] ]
+event_inherited();
 
 var xs = record[? "xs" ]
 var ys = record[? "ys" ]

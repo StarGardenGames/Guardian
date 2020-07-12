@@ -11,3 +11,10 @@ sprs = [
 	sCharacterRight,
 	sCharacterUp,
 ]
+
+spr_idles = [
+	sDogIdle,
+	sCatIdle,
+	sHamsterIdle,
+	sBirdIdle,
+]

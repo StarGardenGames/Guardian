@@ -17,6 +17,11 @@ if(oControl.level_state != LEVEL_STATE_2.live){
 }
 
 CharacterMovement();
+CharacterDeath();
+
+image_speed = 1*slowfactor	
+
+if(oControl.level_state != LEVEL_STATE_2.live) exit;
 
 // xprevious doesn't work for paths :'(
 if((x-xprev) != 0){
@@ -28,9 +33,7 @@ if(point_distance(xprev,yprev,x,y) > 0){
 }else{
 	sprite_index = idle_sprite
 }
-image_speed = 1*slowfactor	
 
-CharacterDeath();
 
 xprev = x
 yprev = y

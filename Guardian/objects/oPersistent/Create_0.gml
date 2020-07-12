@@ -18,8 +18,8 @@ request_ids[? http_get(concat(urls[? "path"], "?op=get_path",)) ] = "get_path"
 
 randomize()
 
-if(file_exists("save.json")){
-	my_record = loadJsonFile("save.json")
+if(file_exists("record.json")){
+	my_record = loadJsonFile("record.json")
 }else{
 	my_record = ds_map_create()
 	ds_map_add_list(my_record, "xs", ds_list_create())
@@ -27,6 +27,14 @@ if(file_exists("save.json")){
 	my_record[? "type"] = 0
 	my_record[?"name"] = ""
 }
+
+if(file_exists("levels_won.json")){
+	levels_won = loadJsonFile("levels_won.json")
+	printMap(levels_won)
+}else{
+	levels_won = ds_map_create()
+}
+
 
 global_records = ds_list_create()
 
