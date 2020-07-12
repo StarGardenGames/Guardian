@@ -1,4 +1,4 @@
-oif(state != prevstate){
+if(state != prevstate){
 	if(state == CHAR_STATE.unselected){
 		if(object_is_ancestor(object_index, oCharacterPath)){
 			path_start(path,moveSpeed,path_action_continue,false);

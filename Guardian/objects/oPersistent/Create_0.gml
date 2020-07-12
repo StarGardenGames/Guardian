@@ -8,10 +8,6 @@ levels = [
 	rm_interiorwalls,
 	rm_fourmovingwalls,
 	rm_splitroom,
-	rm_3,
-	rm_6,
-	rm_7,
-	rm_8,
 	rm_inf,
 ]
 
