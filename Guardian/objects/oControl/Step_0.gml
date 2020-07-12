@@ -1,5 +1,3 @@
 if(checkPressed("swap")){
 	SwitchCharacter();
 }
-
-

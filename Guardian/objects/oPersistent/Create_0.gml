@@ -5,7 +5,6 @@ request_ids = ds_map_create()
 request_ids[? http_get(concat(urls[? "path"], "?op=get_path",)) ] = "get_path"
 
 randomize()
-var abc = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 
 my_record = ds_map_create()
 ds_map_add_list(my_record, "xs", ds_list_create())
@@ -28,3 +27,10 @@ addJoystickMapping("left", gp_axislh, -1)
 addJoystickMapping("right", gp_axislh, 1)
 addJoystickMapping("up", gp_axislv, -1)
 addJoystickMapping("down", gp_axislv, 1)
+
+print(room)
+with(oInput){
+	printMap(mappings[? INPUT_METHOD.keyboard ]);	
+}
+
+room_goto(rm_menu)
