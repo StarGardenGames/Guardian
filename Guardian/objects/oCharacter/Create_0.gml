@@ -23,3 +23,6 @@ for(var i = 0; i < instance_number(oCharacter); i++){
 		break;
 	}
 }
+
+death_ring = false
+death_radius = 300
