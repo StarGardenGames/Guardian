@@ -3455,6 +3455,14 @@
             }
         },
         {
+            "Key": "ee9b07c7-c1e0-4e3b-9690-286efbe3fb63",
+            "Value": {
+                "id": "24a0e7f3-dd39-4b1b-a7b2-ff31991c0f1a",
+                "resourcePath": "sprites\\sInfiniteText\\sInfiniteText.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ef4a0fe1-839e-41dc-abb1-fa78efb6c53b",
             "Value": {
                 "id": "cc1d74ec-2a62-4eaf-a229-18f5be82c4d5",

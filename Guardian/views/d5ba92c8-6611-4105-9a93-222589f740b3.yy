@@ -18,7 +18,8 @@
         "1f21f0a7-81aa-466d-a094-03704ab4aa0d",
         "2b75df69-8acc-4748-9623-2c6747be52cb",
         "93c3c249-cfd6-4b5c-9245-b99366cbf1ef",
-        "17cf43f9-d270-4107-aa2f-7814f26072c6"
+        "17cf43f9-d270-4107-aa2f-7814f26072c6",
+        "ee9b07c7-c1e0-4e3b-9690-286efbe3fb63"
     ],
     "filterType": "GMSprite",
     "folderName": "TutorialText",
