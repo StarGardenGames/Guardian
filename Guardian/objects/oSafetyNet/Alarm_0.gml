@@ -13,4 +13,5 @@ with(char){
 		state = CHAR_STATE.unselected; 
 	}
 }
-instance_destroy(); 
+
+state = SAFETY_STATE.release;

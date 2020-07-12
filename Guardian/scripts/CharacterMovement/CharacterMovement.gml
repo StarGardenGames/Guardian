@@ -50,7 +50,6 @@ if(safetynet != noone && safetynet.state == SAFETY_STATE.empty){
 	state = CHAR_STATE.safe;
 	safetynet.state = SAFETY_STATE.caught;
 	safetynet.char = id;
-	with(safetynet) alarm[0] = 150;
 	SwitchCharacter();
 }
 
