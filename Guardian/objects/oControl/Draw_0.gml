@@ -3,11 +3,11 @@ var text;
 switch(level_state){
 case LEVEL_STATE_2.won:
 	col = c_green;
-	text = "YOU WON!!"
+	text = "GOOD JOB!"
 	break;
 case LEVEL_STATE_2.lost:
 	col = c_red;
-	text = "YOU LOST!!"
+	text = "YOU LOST CONTROL OF A PET! LET'S TRY THAT AGAIN"
 	break;
 case LEVEL_STATE_2.live:
 	exit;
