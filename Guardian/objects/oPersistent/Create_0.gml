@@ -6,11 +6,15 @@ request_ids[? http_get(concat(urls[? "path"], "?op=get_path",)) ] = "get_path"
 
 randomize()
 
-my_record = ds_map_create()
-ds_map_add_list(my_record, "xs", ds_list_create())
-ds_map_add_list(my_record, "ys", ds_list_create())
-my_record[? "type"] = 0
-my_record[?"name"] = "YourName"
+if(file_exists("save.json")){
+	my_record = loadJsonFile("save.json")
+}else{
+	my_record = ds_map_create()
+	ds_map_add_list(my_record, "xs", ds_list_create())
+	ds_map_add_list(my_record, "ys", ds_list_create())
+	my_record[? "type"] = 0
+	my_record[?"name"] = ""
+}
 
 global_records = ds_list_create()
 

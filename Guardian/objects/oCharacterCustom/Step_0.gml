@@ -4,7 +4,7 @@ sprite_index = sprs[ record[? "type"] ]
 
 var xs = record[? "xs" ]
 var ys = record[? "ys" ]
-	
+
 if(ds_list_size(xs) == 0) exit
 
 if(state == CHAR_STATE.unselected){

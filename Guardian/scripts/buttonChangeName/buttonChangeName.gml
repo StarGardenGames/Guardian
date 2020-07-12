@@ -6,6 +6,11 @@ if(string_length(name) > max_l){
 	exit
 }
 
+if(string_pos(" ", name) != 0){
+	show_message("Name cannot contain spaces")
+	exit
+}
+
 var bad_words = loadJsonFile("bad_words.json")
 var bad_list = bad_words[? "default"]
 if(ds_list_find_index(bad_list, string_lower(name))){
@@ -13,4 +18,4 @@ if(ds_list_find_index(bad_list, string_lower(name))){
 	exit
 }
 
-oRecord.record[? "name"] = name
+oPersistent.my_record[? "name"] = name
