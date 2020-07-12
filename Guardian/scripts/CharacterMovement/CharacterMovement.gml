@@ -1,4 +1,5 @@
 switch(state){
+	
 	case CHAR_STATE.selected:
 		if(!checkHeld("slow")){
 			dx = checkHeld("right") - checkHeld("left"); 

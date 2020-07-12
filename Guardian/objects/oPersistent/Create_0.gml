@@ -4,17 +4,19 @@ urls[? "path" ] = "https://08yawg1a3f.execute-api.us-east-1.amazonaws.com/prod"
 request_ids = ds_map_create()
 request_ids[? http_get(concat(urls[? "path"], "?op=get_path",)) ] = "get_path"
 
-xs = ds_list_create();
-ys = ds_list_create();
-
 randomize()
 var abc = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-name = concat(
+
+my_record = ds_map_create()
+ds_map_add_list(my_record, "xs", ds_list_create())
+ds_map_add_list(my_record, "ys", ds_list_create())
+my_record[?"name"] = concat(
 	abc[irandom(25)],
 	abc[irandom(25)],
 	abc[irandom(25)],
 )
-loaded_name = ""
+
+global_records = ds_list_create()
 
 addInputMapping("left", [vk_left, ord("A")], INPUT_METHOD.keyboard)
 addInputMapping("right", [vk_right, ord("D")], INPUT_METHOD.keyboard)

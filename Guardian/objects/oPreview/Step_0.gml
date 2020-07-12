@@ -1,3 +1,2 @@
-if(is_sprite){
-	oRecord.sprite = sprs[index]	
-}
+sprite_index = sprs[index]
+oRecord.record[? "type" ] = index

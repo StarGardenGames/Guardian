@@ -1,3 +1,5 @@
-/// @description Enable Recording
+/// @description pre -> record
 alarm[1]=60; //disables recording
-recording = true;
+state = RECORD_STATE.record
+ds_list_clear(record[? "xs"])
+ds_list_clear(record[? "ys"])

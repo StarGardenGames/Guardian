@@ -7,22 +7,10 @@ enum RECORD_STATE{
 
 state = RECORD_STATE.selection
 
-recording = false;
-
-//alarm[0] = 90;
-
-with(oCharacter){
-	state = CHAR_STATE.selected;
-}
-
 with(oCharacterPath){
 	path_end();	
 }
 
-xs = ds_list_create()
-ys = ds_list_create()
+record = oPersistent.my_record;
 
 selectors_layer = layer_get_id("Selectors")
-
-sprite = sCharacterLeft
-name = "aaaaa"

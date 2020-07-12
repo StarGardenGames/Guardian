@@ -839,6 +839,14 @@
             }
         },
         {
+            "Key": "4340de35-5ede-41ce-83d3-4c7ae9f39f5b",
+            "Value": {
+                "id": "a7032acc-66ba-4246-b328-79dfb0bbe3a3",
+                "resourcePath": "objects\\oNameText\\oNameText.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "450fc667-1415-4afa-8a16-1f751581dfd6",
             "Value": {
                 "id": "fa7a039a-9759-4f77-aa8b-5716aa8fb7b1",
@@ -1268,6 +1276,14 @@
                 "id": "5427f77e-44e1-4ab5-8d7f-7e8a6419a1f0",
                 "resourcePath": "scripts\\drawRectOutline\\drawRectOutline.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "69adbcd1-225d-46b0-80a2-2bba73341ca4",
+            "Value": {
+                "id": "e5e60ae9-d9d6-4aad-a57e-9412b3f76665",
+                "resourcePath": "datafiles_yy\\bad_words.json.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -3074,7 +3090,7 @@
             "Key": "f979ade1-d27a-458c-a985-ba96b5c0c3dc",
             "Value": {
                 "id": "3e8b9366-0739-4672-9a41-027bd1562940",
-                "resourcePath": "scripts\\buttonRecordPattern\\buttonRecordPattern.yy",
+                "resourcePath": "scripts\\buttonGoToRecord\\buttonGoToRecord.yy",
                 "resourceType": "GMScript"
             }
         },
