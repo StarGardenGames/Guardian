@@ -943,6 +943,14 @@
             }
         },
         {
+            "Key": "486a9e7d-a478-4f0d-8c7d-55eb509e0bdd",
+            "Value": {
+                "id": "544c0e4e-66d9-4e2d-bb96-354b7ab68f0f",
+                "resourcePath": "sprites\\sFenceTopBottom\\sFenceTopBottom.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "486b98ed-4697-48a3-9356-21b2c3563ff5",
             "Value": {
                 "id": "2ef3d436-cb1a-4bf2-8938-d6b94c828737",
@@ -1740,6 +1748,14 @@
                 "id": "b993582e-34e4-4d0a-8ca2-b817c526fbe4",
                 "resourcePath": "scripts\\camPos\\camPos.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "90b4fd84-7ebd-46e1-9da8-72a32388f6ef",
+            "Value": {
+                "id": "4fa84bc7-a9a9-417a-ba44-f4475e237bb1",
+                "resourcePath": "sprites\\sFenceTopSides\\sFenceTopSides.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
